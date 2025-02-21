@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La bodegita xd</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="formulario_Articulo">
+      <h3>Datos del articulo</h3>
+      <input type="text" id="ipArticulo_Formulario" placeholder="articulos">
+      <button id="articulos_btidetificardor">Agregar Articulo </button> 
+    </section>
+    <section id="formulario_Bodega">
+      <h3>Info de la bodega</h3>
+      <p>Monto total de ganacias de la bodega: 
+        $<span id="formulario_ganancias_output">?</span>
+      </p>
+    </section>
+  </body>
+    <script type="module">
+      import Principal from "./principal.js";
+      new Principal()
+    </script>
+</html>
